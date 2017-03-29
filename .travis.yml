@@ -1,0 +1,24 @@
+language: android
+
+sudo: false
+
+jdk:
+  - oraclejdk8
+
+android:
+  components:
+    - tools
+    - build-tools-25.0.2
+    - platform-tools
+    - android-23
+    - extra-android-m2repository
+    - extra-google-android-support
+    - android-22
+    - android-25  
+  licenses:
+    - 'android-sdk-preview-license-.+'
+    - 'android-sdk-license-.+'
+    - 'google-gdk-license-.+'
+    
+before_install:
+  - chmod +x gradlew
