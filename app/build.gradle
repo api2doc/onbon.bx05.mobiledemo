@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "onbon.bx05.mobiledemo"
+        minSdkVersion 21
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        project.ext.set("archivesBaseName", "bx5g.mobiledemo-" + defaultConfig.versionName);
+    }
+    dexOptions {
+        preDexLibraries = false
+        additionalParameters =["--core-library"]
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.3.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    testCompile 'junit:junit:4.12'
+    compile files('libs/bx05.message-0.5.0-SNAPSHOT.jar')
+    compile files('libs/bx05-0.5.0-SNAPSHOT.jar')
+    compile files('libs/log4j-1.2.14.jar')
+    compile files('libs/simple-xml-2.7.1.jar')
+    compile files('libs/uia.comm-0.2.1.jar')
+    compile files('libs/uia.message-0.5.1.jar')
+    compile files('libs/uia.utils-0.1.2.jar')
+    compile(name:'java.awt4a-0.1-release', ext:'aar')
+}
