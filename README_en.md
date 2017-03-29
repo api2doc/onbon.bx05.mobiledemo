@@ -6,7 +6,7 @@ This document describes how to create a project of [onbon.bx05 api](https://gith
 
 The controller that template from github source tests is BX-5E3. Test information always be showed at fixed position (448, 0) with fixed size (64,32).
 
-<img src="images/screenshot1.png" alt="Sample" width="400" />
+<img src="images/Screenshot1.png" alt="Sample" width="400" />
 
 ## dependency files
 

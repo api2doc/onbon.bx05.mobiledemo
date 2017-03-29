@@ -6,7 +6,7 @@ onbon bx05 api for Android
 
 github source 提供的項目樣板，測試對象為 BX-5E3 雙色控制器，資料顯示位置固定在 (448, 0)，內容大小 為 (64, 32)。
 
-<img src="images/screenshot1.png" alt="Sample" width="400" />
+<img src="images/Screenshot1.png" alt="Sample" width="400" />
 
 ## 相依檔案
 
