@@ -1,5 +1,7 @@
 onbon bx05 api for Android
 =====================
+[![Build Status](https://travis-ci.org/api2doc/onbon.bx05.mobiledemo.svg?branch=master)](https://travis-ci.org/api2doc/onbon.bx05.mobiledemo)
+
 [English](README_en.md)
 
 本文件說明如何在 [Android Studio](https://developer.android.com/studio/index.html) 開發環境下，建立 [onbon.bx05 api](https://github.com/api2doc/onbon.bx05.api) 的開發項目。

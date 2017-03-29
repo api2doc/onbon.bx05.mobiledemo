@@ -1,5 +1,7 @@
 onbon bx05 api for Android
 =====================
+[![Build Status](https://travis-ci.org/api2doc/onbon.bx05.mobiledemo.svg?branch=master)](https://travis-ci.org/api2doc/onbon.bx05.mobiledemo)
+
 [Chinese](README.md)
 
 This document describes how to create a project of [onbon.bx05 api](https://github.com/api2doc/onbon.bx05.api) in [Android Studio](https://developer.android.com/studio/index.html) IDE.
