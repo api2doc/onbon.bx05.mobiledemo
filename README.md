@@ -13,7 +13,7 @@ github source 提供的項目樣板，測試對象為 BX-5E3 雙色控制器，�
 
 ## 相依檔案
 
-#### JAR - onbon bx05 api Java 庫
+#### JAR - onbon bx05 api Java 庫 (與 Desktop 版本相同)
 * bx05.message-0.5.0-SNAPSHOT.jar
 
 * bx05-0.5.0-SNAPSHOT.jar
@@ -28,7 +28,7 @@ github source 提供的項目樣板，測試對象為 BX-5E3 雙色控制器，�
 
 * uia.utils-0.1.2.jar
 
-#### AAR - onbon bx05 api on Android devcie 庫
+#### AAR - onbon bx05 api on Android devcie 庫 (Android 專用)
 * java.awt4a-0.1-release.aar
 
 ## Project 相關設定

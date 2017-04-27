@@ -13,7 +13,7 @@ The controller that template from github source tests is BX-5E3. Test informatio
 
 ## dependency files
 
-#### JAR - onbon bx05 api Java Libraries
+#### JAR - onbon bx05 api Java Libraries (same as Desktop version)
 * bx05.message-0.5.0-SNAPSHOT.jar
 
 * bx05-0.5.0-SNAPSHOT.jar
@@ -28,7 +28,7 @@ The controller that template from github source tests is BX-5E3. Test informatio
 
 * uia.utils-0.1.2.jar
 
-#### AAR - onbon bx05 api on Android devcie Libraries
+#### AAR - onbon bx05 api on Android devcie Libraries (Android only)
 * java.awt4a-0.1-release.aar
 
 ## project configuration
