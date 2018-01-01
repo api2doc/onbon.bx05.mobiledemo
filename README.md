@@ -7,26 +7,26 @@ onbon bx05 api for Android
 
 本文件說明如何在 [Android Studio](https://developer.android.com/studio/index.html) 開發環境下，建立 [onbon.bx05 api](https://github.com/api2doc/onbon.bx05.api) 的開發項目。
 
-github source 提供的項目樣板，測試對象為 BX-5E3 雙色控制器，資料顯示位置固定在 (448, 0)，內容大小 為 (64, 32)。
+github source 測試對象為 BX-5E3 雙色控制器，資料顯示位置固定在 (448, 0)，內容大小 為 (64, 32)。
 
 <img src="images/Screenshot1.png" alt="Sample" width="400" />
 
 ## 相依檔案
 
 #### JAR - [onbon bx05 api](https://github.com/api2doc/onbon.bx05.api) Java 庫 (7/10)
-* bx05.message-0.5.0-SNAPSHOT.jar
+* bx05.message-x.x.x-SNAPSHOT.jar
 
-* bx05-0.5.0-SNAPSHOT.jar
+* bx05-x.x.x-SNAPSHOT.jar
 
 * log4j-1.2.14.jar
 
 * simple-xml-2.7.1.jar
 
-* uia.comm-0.2.1.jar
+* uia.comm-x.x.x.jar
 
-* uia.message-0.5.1.jar
+* uia.message-x.x.x.jar
 
-* uia.utils-0.1.2.jar
+* uia.utils-x.x.x.jar
 
 #### AAR - onbon bx05 api on Android devcie 庫 (Android 專用)
 * java.awt4a-0.1-release.aar
@@ -56,7 +56,7 @@ allprojects {
 
 * dexOptions - 允許掛載 Java AWT for Android。
 
-* dependencies - 定義 onbon.bx05 API 相關的 JAR & AAR 等八個檔案。檔案儲存在 __libs__ 資料夾下。
+* dependencies - 定義 onbon.bx05 API 相關的 JAR & AAR 等八個檔案。檔案儲存在 __libs__ 資料夾下。注意：檔名依使用版本調正。
 
 
 ``` gradle

@@ -7,26 +7,26 @@ onbon bx05 api for Android
 
 This document describes how to create a project of [onbon.bx05 api](https://github.com/api2doc/onbon.bx05.api) in [Android Studio](https://developer.android.com/studio/index.html) IDE.
 
-The controller that template from github source tests is BX-5E3. Test information always be showed at fixed position (448, 0) with fixed size (64,32).
+Test target of github source is is BX-5E3. Test information always be showed at fixed position (448, 0) with fixed size (64,32).
 
 <img src="images/Screenshot1.png" alt="Sample" width="400" />
 
 ## dependency files
 
 #### JAR - [onbon bx05 api](https://github.com/api2doc/onbon.bx05.api) Java Libraries (7/10)
-* bx05.message-0.5.0-SNAPSHOT.jar
+* bx05.message-x.x.x-SNAPSHOT.jar
 
-* bx05-0.5.0-SNAPSHOT.jar
+* bx05-x.x.x-SNAPSHOT.jar
 
 * log4j-1.2.14.jar
 
 * simple-xml-2.7.1.jar
 
-* uia.comm-0.2.1.jar
+* uia.comm-x.x.x.jar
 
-* uia.message-0.5.1.jar
+* uia.message-x.x.x.jar
 
-* uia.utils-0.1.2.jar
+* uia.utils-x.x.x.jar
 
 #### AAR - onbon bx05 api on Android devcie Libraries (Android only)
 * java.awt4a-0.1-release.aar
