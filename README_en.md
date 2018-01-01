@@ -13,7 +13,7 @@ The controller that template from github source tests is BX-5E3. Test informatio
 
 ## dependency files
 
-#### JAR - onbon bx05 api Java Libraries (same as Desktop version)
+#### JAR - [onbon bx05 api](https://github.com/api2doc/onbon.bx05.api) Java Libraries (7/10)
 * bx05.message-0.5.0-SNAPSHOT.jar
 
 * bx05-0.5.0-SNAPSHOT.jar

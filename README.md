@@ -13,7 +13,7 @@ github source 提供的項目樣板，測試對象為 BX-5E3 雙色控制器，�
 
 ## 相依檔案
 
-#### JAR - onbon bx05 api Java 庫 (與 Desktop 版本相同)
+#### JAR - [onbon bx05 api](https://github.com/api2doc/onbon.bx05.api) Java 庫 (7/10)
 * bx05.message-0.5.0-SNAPSHOT.jar
 
 * bx05-0.5.0-SNAPSHOT.jar
