@@ -1,6 +1,8 @@
 language: android
 
-sudo: false
+sudo: required
+dist: trusty
+group: deprecated-2017Q4
 
 jdk:
   - oraclejdk8

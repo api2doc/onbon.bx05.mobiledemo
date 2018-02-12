@@ -39,8 +39,8 @@ dependencies {
     compile files('libs/bx05-0.5.0-SNAPSHOT.jar')
     compile files('libs/log4j-1.2.14.jar')
     compile files('libs/simple-xml-2.7.1.jar')
-    compile files('libs/uia.comm-0.2.1.jar')
-    compile files('libs/uia.message-0.5.1.jar')
+    compile files('libs/uia.comm-0.2.2.jar')
+    compile files('libs/uia.message-0.5.2.jar')
     compile files('libs/uia.utils-0.1.2.jar')
     compile(name:'java.awt4a-0.1-release', ext:'aar')
 }

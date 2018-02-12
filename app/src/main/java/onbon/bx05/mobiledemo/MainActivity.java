@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
 
     private boolean testDeployOKorNot() {
         try {
-            int size = onbon.db.Factory.getIstance().fineSeriesList().size();
+            int size = onbon.bx05.db.Factory.getIstance().fineSeriesList().size();
             this.outputText.setTextColor(Color.blue._color());
             this.outputText.setText("OK. Series Size:" + size);
             return true;
@@ -209,8 +209,8 @@ public class MainActivity extends AppCompatActivity {
             p002.setFrameSpeed(20);
             p002.loadFrameImage(3);
 
-            TextCaptionBxArea textArea = new TextCaptionBxArea(512-64, 0, 64, 32, profile);
-            textArea.setFrameShow(true);
+            TextCaptionBxArea textArea = new TextCaptionBxArea(4, 4, profile.getWidth() - 8, profile.getHeight() - 8, profile);
+            textArea.setFrameShow(false);
             textArea.loadFrameImage(4);
 
             TextBxPage page = new TextBxPage("" + msgText.getText());
